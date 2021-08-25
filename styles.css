@@ -3,21 +3,32 @@
     background-color: grey;
     height: 300px;
     width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+    
     
 }
 
 .id{
     background-color: red;
-    height: 300px;
-    width: 400px;
+    height: 290px;
+    width: 390px;
     border-radius: 20px;
     text-align: center;
     color: white;
-   
+    
+    
 }
 
 .name{
     background-color: white;
     height: 100px;
     color: black;
+    margin-top: 50px;
+    padding-top: 1em;
+    
+    
 }
