@@ -5,18 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
+  <title>Document</title>
 </head>
 <body>
-    <div class="card">
-        <div class="id">
-            <h1>HELLO</h1>
-            <h2>my name is</h2>
-            <div class="name">
-                <h3>Zach</h3>
-            </div>
+  <section class="inputs">
+    <label>
+      Name:
+      <input id="name-input">
+    </label>
+    <button id="update-button">Update</button>
+  </section>
 
-        </div>
-    </div>
+  <div class="paper">
+    <p class="tag">
+      <strong class="greeting">Hello</strong>
+      my name is
+      <em id="name" class="name">Steven Universe</em>
+    </p>
+  </div>
+    <button id="green-button">Green</button>
+    <button id="blue-button">Blue</button>
+    <button id="red-button">Red</button>
+
+    <script src="app.js" type="module"></script>
 </body>
 </html>
